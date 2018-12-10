@@ -66,6 +66,6 @@
     </div>
   </form>
 </div>
-<ng-container class="container" *ngFor="let contact of contacts">
-  <app-card></app-card>
+<ng-container class="container" *ngFor="let c of contacts">
+  <app-card [contact]="c"></app-card>
 </ng-container>
